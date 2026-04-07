@@ -9,11 +9,11 @@ enabled = true
 [[d1_databases]]
 binding = "db"
 database_name = "cloud-mail-db"
-database_id = "bfe5344a-e3d2-455c-87a3-4719598f4ced"   # ← 从D1控制台复制
+database_id = "bfe5344a-e3d2-455c-87a3-4719598f4ced"
 
 [[kv_namespaces]]
 binding = "kv"
-id = "0c8b49b968714af0b7563a086b1417a6"           # ← 从KV控制台复制
+id = "0c8b49b968714af0b7563a086b1417a6"
 
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
